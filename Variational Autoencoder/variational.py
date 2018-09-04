@@ -134,4 +134,4 @@ vae.fit(x_train,
         epochs=epochs,
        	batch_size=batch_size,
        	validation_data=(x_test, None))
-vae.save_weights('vae_mlp_mnist.h5')
+vae.save_weights('vae_mlp.h5')
